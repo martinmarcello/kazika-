@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ViniWiFi — Fast, Reliable Home Internet</title>
+    <meta name="description" content="ViniWiFi installs fast and reliable Wi‑Fi for homes and small businesses. Affordable plans in KSh with speeds up to 100 Mbps+." />
+
+    <!-- Icons: Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/router.png" type="image/png" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#" class="logo" aria-label="ViniWiFi home">
+                <i class="fa-solid fa-wifi"></i>
+                <span>ViniWiFi</span>
+            </a>
+            <nav class="nav">
+                <a href="#services">Services</a>
+                <a href="#plans">Plans</a>
+                <a href="#testimonials">Reviews</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact" class="btn btn-sm">Contact</a>
+            </nav>
+            <button class="nav-toggle" aria-label="Open Menu"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <h1>Fast, Reliable Wi‑Fi for Your Home</h1>
+                    <p>Affordable internet from a local network selling company. We install Wi‑Fi for individuals and small businesses with speeds up to 100+ Mbps.</p>
+                    <div class="hero-cta">
+                        <a href="#plans" class="btn btn-primary"><i class="fa-solid fa-bolt"></i> View Plans</a>
+                        <a href="#contact" class="btn btn-ghost"><i class="fa-solid fa-envelope"></i> Get a Quote</a>
+                    </div>
+                    <ul class="hero-badges">
+                        <li><i class="fa-solid fa-tower-cell"></i> Wide Coverage</li>
+                        <li><i class="fa-solid fa-shield-halved"></i> Secure Network</li>
+                        <li><i class="fa-solid fa-headset"></i> 7‑day Support</li>
+                    </ul>
+                </div>
+                <div class="hero-art" aria-hidden="true">
+                    <div class="wifi-circle c1"></div>
+                    <div class="wifi-circle c2"></div>
+                    <div class="wifi-circle c3"></div>
+                    <img src="images/router.png" alt="ViniWiFi Router" class="router-img" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="section" id="services">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="cards">
+                    <article class="card">
+                        <i class="fa-solid fa-house-signal card-icon"></i>
+                        <h3>Home Wi‑Fi Installation</h3>
+                        <p>Professional on‑site setup, router placement, and optimization for stable speeds in every room.</p>
+                    </article>
+                    <article class="card">
+                        <i class="fa-solid fa-network-wired card-icon"></i>
+                        <h3>Small Business Internet</h3>
+                        <p>Reliable connectivity with optional guest networks and basic content controls.</p>
+                    </article>
+                    <article class="card">
+                        <i class="fa-solid fa-screwdriver-wrench card-icon"></i>
+                        <h3>Support & Maintenance</h3>
+                        <p>Quick troubleshooting, device upgrades, and performance checks when you need them.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section with featured image -->
+        <section class="section" id="experience">
+            <div class="container media">
+                <div class="media-image">
+                    <img src="images/man enjoying net.png" alt="Happy customer enjoying fast internet" loading="lazy" />
+                </div>
+                <div class="media-copy">
+                    <h2 class="section-title">Experience the Speed</h2>
+                    <p class="section-subtitle">Seamless streaming, gaming, and work calls — powered by ViniWiFi’s reliable network installs.</p>
+                    <ul class="hero-badges">
+                        <li><i class="fa-solid fa-wifi"></i> Strong signal in every room</li>
+                        <li><i class="fa-solid fa-stopwatch"></i> Low latency for gaming</li>
+                        <li><i class="fa-solid fa-screwdriver-wrench"></i> Professional installation</li>
+                    </ul>
+                    <div class="hero-cta">
+                        <a href="#plans" class="btn btn-primary"><i class="fa-solid fa-bolt"></i> View Plans</a>
+                        <a href="#contact" class="btn btn-ghost"><i class="fa-solid fa-envelope"></i> Get a Quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Plans -->
+        <section class="section alt" id="plans">
+            <div class="container">
+                <h2 class="section-title">Internet Plans</h2>
+                <p class="section-subtitle">Simple pricing in KSh. Pick the speed that matches your needs.</p>
+                <div class="pricing">
+                    <article class="price-card">
+                        <h3>Starter</h3>
+                        <p class="speed"><i class="fa-solid fa-gauge"></i> 10 Mbps</p>
+                        <p class="price">KSh 1,999 / month</p>
+                        <ul class="features">
+                            <li><i class="fa-solid fa-check"></i> Ideal for 1‑2 users</li>
+                            <li><i class="fa-solid fa-check"></i> HD streaming & browsing</li>
+                            <li><i class="fa-solid fa-check"></i> Free installation</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">Choose Starter</a>
+                    </article>
+                    <article class="price-card featured">
+                        <div class="ribbon">Popular</div>
+                        <h3>Family</h3>
+                        <p class="speed"><i class="fa-solid fa-gauge-high"></i> 25 Mbps</p>
+                        <p class="price">KSh 2,500 / month</p>
+                        <ul class="features">
+                            <li><i class="fa-solid fa-check"></i> 3‑5 users, smart TVs</li>
+                            <li><i class="fa-solid fa-check"></i> FHD/4K streaming</li>
+                            <li><i class="fa-solid fa-check"></i> Priority support</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">Choose Family</a>
+                    </article>
+                    <article class="price-card">
+                        <h3>Turbo</h3>
+                        <p class="speed"><i class="fa-solid fa-rocket"></i> 50 Mbps</p>
+                        <p class="price">KSh 4,999 / month</p>
+                        <ul class="features">
+                            <li><i class="fa-solid fa-check"></i> Heavy streaming & gaming</li>
+                            <li><i class="fa-solid fa-check"></i> Uploads for creators</li>
+                            <li><i class="fa-solid fa-check"></i> Free router upgrade</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary">Choose Turbo</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="section" id="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Customers Say</h2>
+                <div class="testimonials">
+                    <figure class="testimonial">
+                        <blockquote>
+                            “Installation was quick and the connection is solid. Great value for money!”
+                        </blockquote>
+                        <figcaption>
+                            <img src="images/testimonials/grace.jpg" alt="Customer — Grace" loading="lazy" onerror="this.onerror=null;this.src='https://randomuser.me/api/portraits/women/79.jpg';" />
+                            <div>
+                                <strong>Grace N.</strong>
+                                <span>Nairobi</span>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="testimonial">
+                        <blockquote>
+                            “Streaming and work calls are smooth. Support team is friendly and fast.”
+                        </blockquote>
+                        <figcaption>
+                            <img src="images/testimonials/brian.jpg" alt="Customer — Brian" loading="lazy" onerror="this.onerror=null;this.src='https://randomuser.me/api/portraits/men/80.jpg';" />
+                            <div>
+                                <strong>Brian K.</strong>
+                                <span>Thika</span>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="testimonial">
+                        <blockquote>
+                            “Reliable internet for our small office. Setup was clean and professional.”
+                        </blockquote>
+                        <figcaption>
+                            <img src="images/testimonials/linda.jpg" alt="Customer — Linda" loading="lazy" onerror="this.onerror=null;this.src='https://randomuser.me/api/portraits/women/83.jpg';" />
+                            <div>
+                                <strong>Linda W.</strong>
+                                <span>Kiambu</span>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section alt" id="faq">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq">
+                    <details>
+                        <summary><i class="fa-solid fa-circle-question"></i> How fast is the installation?</summary>
+                        <p>Most installations are completed within 24–48 hours after confirmation.</p>
+                    </details>
+                    <details>
+                        <summary><i class="fa-solid fa-circle-question"></i> Do you charge for installation?</summary>
+                        <p>For most plans, standard installation is free. Complex setups may incur a small fee.</p>
+                    </details>
+                    <details>
+                        <summary><i class="fa-solid fa-circle-question"></i> Can I upgrade my plan later?</summary>
+                        <p>Yes, upgrades can be done anytime and take effect on your next billing cycle.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="container contact-grid">
+                <div class="contact-copy">
+                    <h2 class="section-title">Get a Free Quote</h2>
+                    <p>Tell us where you are and the speed you need. We’ll recommend the best plan.</p>
+                    <ul class="contact-list">
+                        <li><i class="fa-solid fa-phone"></i> <a href="tel:+254114776302">0114776302</a></li>
+                        <li><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/254114776302" target="_blank" rel="noopener">WhatsApp us</a></li>
+                        <li><i class="fa-solid fa-envelope"></i> hello@viniwifi.co.ke</li>
+                        <li><i class="fa-solid fa-location-dot"></i> Nairobi, Kenya</li>
+                    </ul>
+                </div>
+                <form class="contact-form" id="contactForm" action="#" method="post" onsubmit="return false;">
+                    <div class="grid">
+                        <label>
+                            <span>Full Name</span>
+                            <input type="text" id="fullName" placeholder="Your name" required />
+                        </label>
+                        <label>
+                            <span>Phone</span>
+                            <input type="tel" id="phone" placeholder="07xx xxx xxx" required />
+                        </label>
+                        <label class="full">
+                            <span>Location</span>
+                            <input type="text" id="location" placeholder="Estate / Town" required />
+                        </label>
+                        <label>
+                            <span>Preferred Plan</span>
+                            <select id="plan">
+                                <option>Starter — 10 Mbps (KSh 1,999)</option>
+                                <option>Family — 25 Mbps (KSh 3,499)</option>
+                                <option>Turbo — 50 Mbps (KSh 5,499)</option>
+                            </select>
+                        </label>
+                        <label>
+                            <span>Message</span>
+                            <input type="text" id="message" placeholder="Any extra details" />
+                        </label>
+                    </div>
+                    <button class="btn btn-primary" id="submitRequest" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Request</button>
+                    <p class="form-note">By submitting, you agree to be contacted by ViniWiFi.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="brand">
+                <a href="#" class="logo">
+                    <i class="fa-solid fa-wifi"></i>
+                    <span>ViniWiFi</span>
+                </a>
+                <p>Local, reliable internet. Simple plans in KSh, tailored for you.</p>
+            </div>
+            <nav class="footer-nav">
+                <a href="#services">Services</a>
+                <a href="#plans">Plans</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="socials">
+                <a href="https://wa.me/254114776302" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="X/Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+        <div class="legal">© <span id="year"></span> ViniWiFi. All rights reserved.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
